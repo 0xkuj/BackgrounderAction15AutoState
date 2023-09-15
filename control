@@ -1,6 +1,6 @@
 Package: com.0xkuj.backgrounderaction15autostate
 Name: BackgrounderAction15AutoState
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Save Action state for BackgrounderAction15 CC Toggle
 Maintainer: 0xkuj
