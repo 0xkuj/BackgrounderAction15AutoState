@@ -22,7 +22,6 @@ static void loadPrefs() {
 
 %hook SpringBoard
 - (void)frontDisplayDidChange:(id)arg1 {
-    NSLog(@"omriku here with %@",arg1);
     %orig(arg1);
     if (arg1 == nil || (module != nil && [module isSelected]) || isTweakEnabled == NO || [arg1 isKindOfClass:NSClassFromString(@"SBApplication")] == NO) {
         return;
